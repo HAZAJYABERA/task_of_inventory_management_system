@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body bgcolor="skyblue">
+<center>
+    
+    <h2>Registration Form</h2>
+    <form action="register.php" method="post">
+        <label>user_id:</label>
+        <input type="text" name="user_id" placeholder="user_id" required><br><br><br>
+        <label>username:</label>
+        <input type="text" name="username" placeholder="username" required><br><br><br>
+
+
+        <label>First_name:</label>
+        <input type="text" name="fname" placeholder="fname"required><br><br>
+
+        <label>Last_name:</label>
+        <input type="text" name="lname" placeholder="lname" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="enter your email" required><br><br>
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="enter your password" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gend" value="male" checked>Male
+        <input type="radio" name="gend" value="female">Female<br><br>
+
+
+        <input type="submit" name="register" value="Register">
+        <input type="reset" name="cancel" value="Cancel">
+    </form>
+</center>
+</body>
+
+</html>
